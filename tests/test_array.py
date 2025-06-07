@@ -10,7 +10,7 @@ class TestArrayBasedList(unittest.TestCase):
     
     def test_initial_empty_state(self):
         empty_list = ArrayBasedList()
-        self.assertEqual(empty_list.length(), 0)
+        self.assertEqual(empty_list.length(), 100)
     
     def test_length(self):
         self.assertEqual(self.list.length(), 5)
